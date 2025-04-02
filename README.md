@@ -9,12 +9,12 @@ No entanto, essa segmentação não é tão eficaz **entre blocos de legenda**. 
 1. **Ajuste da Última Palavra do Bloco:** Se a última palavra de um bloco termina com pontuação e tem um espaço antes ou está em uma lista de palavras específicas (NoBreakAfterList), ela é movida para o início do próximo bloco de legenda, caso ele exista.
 2. **Ajuste da Primeira Palavra do Bloco:** Se a primeira palavra de um bloco é seguida por pontuação (vírgula, ponto, interrogação) e a pontuação tem um espaço depois, essa palavra é movida para o final do bloco anterior.
 	* Exceções:
-		*A palavra não é movida se for a única palavra do bloco.
+		* A palavra não é movida se for a única palavra do bloco.
 		* No caso de vírgula, a palavra não é movida se:
 			* Começa com letra maiúscula.
 			* A segunda palavra da linha também termina com vírgula.
   
-![Captura de resultado da automação](https://github.com/user-attachments/assets/5756ab7d-86ff-417d-aa1a-b38634287a77)
+![Captura de tela com o resultado da automação. Comparação de duas legendas lado a lado.](https://github.com/user-attachments/assets/5756ab7d-86ff-417d-aa1a-b38634287a77)
 
 ## Como usar
 
